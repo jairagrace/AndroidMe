@@ -5,9 +5,33 @@
     tools:context="com.hyperdev.androidme.data.BodyPartFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="478dp"
+        android:orientation="vertical"
+        android:weightSum="1">
 
+        <ImageView
+            android:id="@+id/Viewhead"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="0.10"
+            android:src="@drawable/head1" />
+
+        <ImageView
+            android:id="@+id/Viewbody"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="0.10"
+            android:src="@drawable/body1" />
+
+        <ImageView
+            android:id="@+id/Viewleg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="0.10"
+            android:src="@drawable/legs1" />
+
+
+    </LinearLayout>
 </FrameLayout>
